@@ -1,0 +1,24 @@
+{
+  "name": "PT Hokiindo Raya",
+  "tagline": "Solusi Distribusi Peralatan Listrik untuk Profesional Industri",
+  "description": "PT Hokiindo Raya adalah distributor peralatan listrik yang melayani kebutuhan kontraktor, panel maker, dan perusahaan industri di Indonesia. Kami menghadirkan produk berkualitas dari brand principal terpercaya dengan dukungan teknis yang andal.",
+  "address": "Roseville SOHO & Suite, Jl. Sunburst CBD, Jl. Kapten Soebijanto Djojohadikusumo No.8 Lot I, Lengkong Gudang, Kec. Serpong, Kota Tangerang Selatan, Banten 15321",
+  "warehouseAddress": "Jl. Letnan Sutopo, Ruko Golden Madrid 1 Blok E28, Tangerang Selatan",
+  "phone": "(+62) 81 1108 6180",
+  "email": "info@hokiindo.co.id",
+  "domain": "hokiindo.co.id",
+  "vision": "Menjadi mitra distribusi peralatan listrik yang terpercaya dan profesional bagi industri di Indonesia.",
+  "mission": [
+    "Menyediakan produk kelistrikan berkualitas dari brand principal terpercaya.",
+    "Memberikan dukungan teknis yang tepat dan responsif kepada setiap mitra.",
+    "Membangun hubungan jangka panjang yang saling menguntungkan dengan kontraktor, panel maker, dan industri."
+  ],
+  "values": [
+    { "title": "Integritas", "description": "Kami menjaga kejujuran dan transparansi dalam setiap transaksi dan kemitraan." },
+    { "title": "Keandalan", "description": "Produk yang kami distribusikan memenuhi standar kualitas dan keamanan kelistrikan." },
+    { "title": "Profesionalisme", "description": "Tim kami memahami kebutuhan teknis industri dan memberikan solusi yang tepat sasaran." }
+  ],
+  "principals": [
+    { "name": "Siemens", "logo": "/images/principals/siemens.png" }
+  ]
+}

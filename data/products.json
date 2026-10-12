@@ -1,0 +1,55 @@
+[
+  {
+    "id": "circuit-breaker",
+    "category": "Circuit Breaker",
+    "description": "Perangkat proteksi arus listrik untuk instalasi rumah tangga dan industri. Memutus aliran listrik secara otomatis saat terjadi beban lebih atau hubung singkat.",
+    "items": [
+      {
+        "id": "mcb-siemens",
+        "name": "Miniature Circuit Breaker (MCB)",
+        "brand": "Siemens",
+        "image": "/images/products/mcb-siemens.jpg",
+        "description": "MCB Siemens seri 5SL dirancang untuk proteksi instalasi listrik pada beban 1 hingga 63A. Tersedia dalam konfigurasi 1P, 2P, 3P, dan 4P dengan karakteristik trip B, C, dan D.",
+        "specs": ["Arus nominal: 6A – 63A", "Tegangan: 230/400V AC", "Breaking capacity: 6kA – 10kA"]
+      },
+      {
+        "id": "mccb-siemens",
+        "name": "Molded Case Circuit Breaker (MCCB)",
+        "brand": "Siemens",
+        "image": "/images/products/mccb-siemens.jpg",
+        "description": "MCCB Siemens seri 3VA untuk proteksi distribusi daya pada panel industri dan komersial. Dilengkapi trip unit elektronik yang dapat disesuaikan.",
+        "specs": ["Arus nominal: 16A – 1600A", "Tegangan: hingga 690V AC", "Breaking capacity: hingga 150kA"]
+      }
+    ]
+  },
+  {
+    "id": "switchgear",
+    "category": "Switchgear & Kontrol",
+    "description": "Peralatan switching dan kontrol untuk sistem distribusi daya industri. Menjamin keandalan operasional dan kemudahan pemeliharaan instalasi listrik.",
+    "items": [
+      {
+        "id": "contactor-siemens",
+        "name": "Contactor Siemens SIRIUS",
+        "brand": "Siemens",
+        "image": "/images/products/contactor-siemens.jpg",
+        "description": "Contactor seri SIRIUS 3RT untuk switching motor dan beban kapasitif. Dirancang untuk operasi hingga jutaan siklus dengan konsumsi daya koil yang rendah.",
+        "specs": ["Arus nominal: 9A – 820A", "Tegangan koil: 24V – 230V AC/DC", "Kategori utilisasi: AC-3, AC-4"]
+      }
+    ]
+  },
+  {
+    "id": "proteksi-industri",
+    "category": "Proteksi Industri",
+    "description": "Perangkat proteksi untuk motor, transformator, dan sistem distribusi daya skala industri. Meminimalkan downtime akibat gangguan listrik.",
+    "items": [
+      {
+        "id": "overload-relay",
+        "name": "Thermal Overload Relay",
+        "brand": "Siemens",
+        "image": "/images/products/overload-relay.jpg",
+        "description": "Relay proteksi motor dari beban lebih secara termal. Kompatibel dengan contactor SIRIUS 3RT dan dapat disetel sesuai arus nominal motor.",
+        "specs": ["Range setting: 0.1A – 630A", "Tegangan: hingga 690V AC", "Reset: manual atau otomatis"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60" fill="none">
+  
+  <path d="M24 18h8l6 24h-8l-2-9h-4l-2 9h-8l8-24zm3 10h2.5l-1.2-5.5L27 28z" fill="#003056" />
+  <text x="50" y="36" font-family="system-ui, sans-serif" font-weight="800" font-size="20" fill="#003056" letter-spacing="0.05em">WIKA</text>
+  <text x="110" y="36" font-family="system-ui, sans-serif" font-weight="500" font-size="12" fill="#6B7280">KARYA</text>
+</svg>

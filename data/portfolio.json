@@ -1,0 +1,35 @@
+[
+  {
+    "id": "gardu-industri-cikarang",
+    "title": "Instalasi Panel Distribusi — Kawasan Industri Cikarang",
+    "client": "[DIBUTUHKAN: nama klien]",
+    "location": "Cikarang, Jawa Barat",
+    "year": 2024,
+    "category": "Panel Distribusi",
+    "image": "/images/portfolio/panel-cikarang.jpg",
+    "description": "Pengadaan dan instalasi panel distribusi utama (MDP) untuk kawasan pabrik seluas 12.000 m². Mencakup supply MCCB, busbar, dan komponen pendukung dari brand principal.",
+    "scope": ["Pengadaan MCCB & MCB Siemens", "Pemasangan panel MDP & SDP", "Pengujian dan komisioning"]
+  },
+  {
+    "id": "panel-gedung-tangerang",
+    "title": "Supply Komponen Panel — Gedung Perkantoran Tangerang Selatan",
+    "client": "[DIBUTUHKAN: nama klien]",
+    "location": "Tangerang Selatan, Banten",
+    "year": 2024,
+    "category": "Pengadaan Komponen",
+    "image": "/images/portfolio/panel-tangerang.jpg",
+    "description": "Pemenuhan kebutuhan komponen elektrikal untuk panel kontrol gedung bertingkat 18 lantai. Meliputi contactor, relay proteksi, dan circuit breaker untuk sistem HVAC dan utilitas.",
+    "scope": ["Pengadaan contactor SIRIUS", "Supply thermal overload relay", "Supply MCB dan MCCB untuk semua lantai"]
+  },
+  {
+    "id": "retrofit-panel-bekasi",
+    "title": "Retrofit Panel Kontrol Motor — Pabrik Manufaktur Bekasi",
+    "client": "[DIBUTUHKAN: nama klien]",
+    "location": "Bekasi, Jawa Barat",
+    "year": 2023,
+    "category": "Retrofit & Upgrade",
+    "image": "/images/portfolio/retrofit-bekasi.jpg",
+    "description": "Penggantian komponen panel kontrol motor yang sudah usang dengan komponen Siemens terbaru. Meningkatkan keandalan operasional dan mengurangi frekuensi downtime produksi.",
+    "scope": ["Audit kondisi panel eksisting", "Pengadaan komponen pengganti", "Instalasi dan pengujian ulang"]
+  }
+]

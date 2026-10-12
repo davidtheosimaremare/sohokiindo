@@ -1,0 +1,249 @@
+@import "tailwindcss";
+
+:root {
+  --color-red: #FF0800;
+  --color-navy: #003056;
+  --color-white: #FFFFFF;
+  --color-offwhite: #F5F5F3;
+  --color-text: #0D0D0D;
+  --color-muted: #6B7280;
+  --color-border: #E5E5E3;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-white);
+  font-feature-settings: "ss01", "ss02", "cv01";
+  overflow-x: clip;
+  max-width: 100%;
+}
+
+/* Eyebrow mark pulse */
+@keyframes pulse-mark {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.eyebrow-mark {
+  animation: pulse-mark 2.5s ease-in-out infinite;
+}
+
+/* Vertical marquee animation for product reel */
+@keyframes marquee-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.animate-marquee-up {
+  animation: marquee-up 18s linear infinite;
+}
+
+/* Horizontal marquee animations (smooth left-to-right sliding) */
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-right {
+  animation: marquee-right 32s linear infinite;
+}
+
+.animate-marquee-left {
+  animation: marquee-left 32s linear infinite;
+}
+
+/* Authentic macOS Glass System (matching Apple macOS Control Center) */
+.macos-glass {
+  background: rgba(24, 28, 36, 0.72);
+  backdrop-filter: blur(48px) saturate(210%);
+  -webkit-backdrop-filter: blur(48px) saturate(210%);
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  box-shadow: 0 24px 64px -12px rgba(0, 0, 0, 0.45), inset 0 1px 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.macos-glass-light {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(36px) saturate(200%);
+  -webkit-backdrop-filter: blur(36px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.08), inset 0 1px 1px 0 rgba(255, 255, 255, 0.95);
+}
+
+.macos-glass-capsule {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(24px) saturate(190%);
+  -webkit-backdrop-filter: blur(24px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 16px -2px rgba(0, 0, 0, 0.15), inset 0 1px 0.5px 0 rgba(255, 255, 255, 0.25);
+}
+
+.macos-glass-capsule:hover {
+  background: rgba(255, 255, 255, 0.22);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.macos-glass-pill {
+  background: rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(20px) saturate(190%);
+  -webkit-backdrop-filter: blur(20px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0.5px 0 rgba(255, 255, 255, 0.3);
+}
+
+.macos-glass-navbar {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(36px) saturate(200%);
+  -webkit-backdrop-filter: blur(36px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  box-shadow: 0 12px 36px -4px rgba(0, 0, 0, 0.08), inset 0 1px 1px 0 rgba(255, 255, 255, 1);
+}
+
+/* Hero choreographed sequence animations */
+@keyframes hero-line-slide {
+  0% {
+    opacity: 0;
+    transform: translateY(115%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hero-fade-slide {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-hero-line-1 {
+  animation: hero-line-slide 0.75s cubic-bezier(0.16, 1, 0.3, 1) 0.15s both;
+}
+
+.animate-hero-line-2 {
+  animation: hero-line-slide 0.75s cubic-bezier(0.16, 1, 0.3, 1) 0.75s both;
+}
+
+.animate-hero-tagline {
+  animation: hero-fade-slide 0.75s cubic-bezier(0.16, 1, 0.3, 1) 1.35s both;
+}
+
+.animate-hero-cta {
+  animation: hero-fade-slide 0.65s cubic-bezier(0.16, 1, 0.3, 1) 1.75s both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-hero-line-1,
+  .animate-hero-line-2,
+  .animate-hero-tagline,
+  .animate-hero-cta,
+  .animate-guard-trace-once,
+  .animate-guard-glow-once {
+    animation: none !important;
+    opacity: 0 !important;
+    transform: none !important;
+  }
+}
+
+/* Guard Shield Soft Single-Shot Animation (gerakan sekali saja kemudian normal line) */
+@keyframes guard-trace-once {
+  0% {
+    stroke-dashoffset: 1000;
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.8;
+  }
+  80% {
+    opacity: 0.65;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes guard-glow-once {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.35;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-guard-trace-once {
+  animation: guard-trace-once 1.1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-guard-glow-once {
+  animation: guard-glow-once 0.9s ease-out forwards;
+}
+
+/* Subtle continuous floating for product image */
+@keyframes float-subtle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-float-subtle {
+  animation: float-subtle 4.5s ease-in-out infinite;
+}
+
+/* Active tab bullet radar pulse effect */
+@keyframes pulse-radar {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+  75% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.animate-pulse-radar {
+  animation: pulse-radar 2.6s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+
+

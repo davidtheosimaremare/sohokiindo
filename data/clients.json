@@ -1,0 +1,86 @@
+[
+  {
+    "id": "bukitasam",
+    "name": "PT Bukit Asam Tbk",
+    "logo": "/images/customer/bukitasam.png",
+    "category": "Pertambangan & Energi"
+  },
+  {
+    "id": "vale",
+    "name": "PT Vale Indonesia Tbk",
+    "logo": "/images/customer/vale.webp",
+    "category": "Pertambangan & Nikel"
+  },
+  {
+    "id": "semacom",
+    "name": "PT Semacom Integrated Tbk",
+    "logo": "/images/customer/semacom.png",
+    "category": "Panel Builder & Switchboard"
+  },
+  {
+    "id": "cat",
+    "name": "PT Cipta Andalan Teknindo",
+    "logo": "/images/customer/cat.jpg",
+    "category": "Electrical & Engineering"
+  },
+  {
+    "id": "gspe",
+    "name": "PT Guna Senatama Perkasa Engineering (GSPE)",
+    "logo": "/images/customer/gspe.jpg",
+    "category": "Engineering & Panel Maker"
+  },
+  {
+    "id": "gunaera",
+    "name": "PT Guna Elektro (GAE)",
+    "logo": "/images/customer/gunaera.jpeg",
+    "category": "Electrical & Manufacturing"
+  },
+  {
+    "id": "hansa",
+    "name": "Hansa Engineering",
+    "logo": "/images/customer/hansa.png",
+    "category": "Engineering Solutions"
+  },
+  {
+    "id": "pmelectric",
+    "name": "PM Electric",
+    "logo": "/images/customer/pmelectric.jpg",
+    "category": "Electrical Solutions"
+  },
+  {
+    "id": "powertek",
+    "name": "PT Powertek Indo Asia",
+    "logo": "/images/customer/powertek.png",
+    "category": "Power & Electrical"
+  },
+  {
+    "id": "pricetrandos",
+    "name": "Price Trandos Engineering",
+    "logo": "/images/customer/pricetrandos.webp",
+    "category": "Switchboard Manufacturer"
+  },
+  {
+    "id": "tsea",
+    "name": "Technical South East Asia (TSEA)",
+    "logo": "/images/customer/tsea.webp",
+    "category": "Industrial Engineering"
+  },
+  {
+    "id": "bcp",
+    "name": "BCP (Be Core Powered)",
+    "logo": "/images/customer/bcp.webp",
+    "category": "Power Solutions"
+  },
+  {
+    "id": "crt",
+    "name": "Cakra Raya Teknologi",
+    "logo": "/images/customer/crt.webp",
+    "category": "Electrical & Automation"
+  },
+  {
+    "id": "lumen",
+    "name": "Lumen",
+    "logo": "/images/customer/lumen.webp",
+    "category": "Electrical Engineering"
+  }
+]

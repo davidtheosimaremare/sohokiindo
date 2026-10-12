@@ -7,7 +7,10 @@ import InteractiveTimeline from "@/components/InteractiveTimeline";
 
 export const metadata: Metadata = {
   title: "Tentang Kami — Distributor Siemens Low Voltage & Control | PT Hokiindo Raya",
-  description: "Ingat Siemens, Ingat Hokiindo. Lebih dari 15 tahun bersama Siemens mendukung kebutuhan komponen kelistrikan Low Voltage dan kontrol industri di Indonesia.",
+  description: "Ingat Siemens, Ingat Hokiindo. Lebih dari 15 tahun bersama Siemens mendukung kebutuhan komponen kelistrikan Low Voltage dan kontrol industri di Indonesia. Kunjungi shop.hokiindo.co.id untuk cek katalog dan stok resmi.",
+  alternates: {
+    canonical: "https://hokiindo.co.id/about",
+  },
 };
 
 
@@ -67,10 +70,24 @@ export default function AboutPage() {
               </Link>
 
               <a
+                href="https://shop.hokiindo.co.id"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full text-[13px] font-bold tracking-[0.08em] uppercase text-white bg-[#FF0800] hover:bg-[#E00700] transition-all duration-200 shadow-xs"
+              >
+                Cek Stok Toko Online
+                <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+
+              <a
                 href="#profil"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full text-[13px] font-bold tracking-[0.08em] uppercase text-[#003056] bg-[#F5F5F3] hover:bg-[#EBEBEA] border border-[#E5E5E3] transition-all duration-200"
               >
-                Pelajari Nilai Kami
+                Nilai Kami
                 <span className="text-gray-400">↓</span>
               </a>
             </div>
@@ -217,6 +234,39 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ── 4. KATALOG & TOKO ONLINE RESMI BANNER (MENGARAH KE SHOP.HOKIINDO.CO.ID) ── */}
+      <section className="py-16 sm:py-20 bg-[#F8FAFC]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-[#003056] text-white p-8 sm:p-12 rounded-3xl flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-96 h-96 bg-[#FF0800]/15 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none" />
+
+            <div className="relative z-10 max-w-2xl">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-[#FF0800] bg-red-50/10 px-3 py-1 rounded-full inline-block mb-3 border border-red-500/20">
+                Katalog &amp; Toko Online Resmi
+              </span>
+              <h3 className="text-2xl sm:text-3xl font-bold mb-3 tracking-tight">
+                Cek Ketersediaan Stok &amp; Spesifikasi di{" "}
+                <span className="text-[#FF0800]">shop.hokiindo.co.id</span>
+              </h3>
+              <p className="text-sm text-slate-300 leading-relaxed font-normal">
+                Sebagai distributor resmi Siemens, kami menyediakan kemudahan akses katalog online 24/7. Temukan spesifikasi lengkap, cek status stok buffer, dan lakukan pemesanan komponen panel Anda secara transparan.
+              </p>
+            </div>
+
+            <a
+              href="https://shop.hokiindo.co.id/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative z-10 inline-flex items-center gap-2.5 px-8 py-4 rounded-full text-xs font-bold uppercase tracking-wider text-white bg-[#FF0800] hover:bg-[#E00700] transition-all shadow-lg hover:shadow-xl hover:gap-3 shrink-0"
+            >
+              <span>Kunjungi Toko Online</span>
+              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

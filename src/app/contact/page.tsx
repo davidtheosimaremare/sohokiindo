@@ -5,9 +5,12 @@ import ProjectConsultationForm from "@/components/ProjectConsultationForm";
 import ContactLocationCards from "@/components/ContactLocationCards";
 
 export const metadata: Metadata = {
-  title: "Kontak & Konsultasi — PT Hokiindo Raya",
+  title: "Kontak & Konsultasi Teknis Siemens — PT Hokiindo Raya",
   description:
-    "Hubungi tim teknis dan sales PT Hokiindo Raya untuk konsultasi produk elektrikal Siemens, cek stok ready, dan pengajuan penawaran proyek industri.",
+    "Hubungi tim sales dan engineer PT Hokiindo Raya untuk konsultasi spesifikasi Siemens, penawaran proyek industri, atau cek ketersediaan stok aktual di shop.hokiindo.co.id.",
+  alternates: {
+    canonical: "https://hokiindo.co.id/contact",
+  },
 };
 
 export default function ContactPage() {

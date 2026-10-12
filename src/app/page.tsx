@@ -9,8 +9,12 @@ import MobileLightingSection from "@/components/MobileLightingSection";
 import company from "../../data/company.json";
 
 export const metadata: Metadata = {
-  title: "Distributor Siemens Indonesia",
-  description: company.description,
+  title: "Distributor Resmi Siemens Indonesia | Low Voltage & Control — PT Hokiindo Raya",
+  description:
+    "Anda bangun panelnya, kami siapkan komponennya. Distributor resmi Siemens Indonesia untuk ACB 3WA, MCCB 3VA, MCB 5SL, SIRIUS Contactor, dan Busbar Chassis. Cek ketersediaan stok aktual di shop.hokiindo.co.id.",
+  alternates: {
+    canonical: "https://hokiindo.co.id",
+  },
 };
 
 export default function HomePage() {

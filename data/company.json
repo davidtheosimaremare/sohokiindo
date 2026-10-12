@@ -1,24 +1,25 @@
 {
   "name": "PT Hokiindo Raya",
-  "tagline": "Solusi Distribusi Peralatan Listrik untuk Profesional Industri",
-  "description": "PT Hokiindo Raya adalah distributor peralatan listrik yang melayani kebutuhan kontraktor, panel maker, dan perusahaan industri di Indonesia. Kami menghadirkan produk berkualitas dari brand principal terpercaya dengan dukungan teknis yang andal.",
+  "tagline": "Distributor Resmi Siemens Indonesia — Low Voltage & Industrial Control",
+  "description": "PT Hokiindo Raya adalah distributor resmi Siemens Low Voltage dan SIRIUS Industrial Control di Indonesia. Lebih dari 15 tahun melayani kontraktor, panel maker, dan industri untuk kebutuhan ACB, MCCB, MCB, Contactor, Busbar Chassis, dan sistem proteksi listrik bergaransi resmi 100% original.",
   "address": "Roseville SOHO & Suite, Jl. Sunburst CBD, Jl. Kapten Soebijanto Djojohadikusumo No.8 Lot I, Lengkong Gudang, Kec. Serpong, Kota Tangerang Selatan, Banten 15321",
   "warehouseAddress": "Jl. Letnan Sutopo, Ruko Golden Madrid 1 Blok E28, Tangerang Selatan",
   "phone": "(+62) 81 1108 6180",
   "email": "info@hokiindo.co.id",
   "domain": "hokiindo.co.id",
+  "shopUrl": "https://shop.hokiindo.co.id",
   "vision": "Menjadi mitra distribusi peralatan listrik yang terpercaya dan profesional bagi industri di Indonesia.",
   "mission": [
-    "Menyediakan produk kelistrikan berkualitas dari brand principal terpercaya.",
-    "Memberikan dukungan teknis yang tepat dan responsif kepada setiap mitra.",
-    "Membangun hubungan jangka panjang yang saling menguntungkan dengan kontraktor, panel maker, dan industri."
+    "Menyediakan produk kelistrikan Siemens dan solusi industrial berkualitas tinggi dari brand principal terpercaya.",
+    "Memberikan dukungan teknis, sizing, dan spesifikasi yang tepat dan responsif kepada setiap mitra panel builder dan kontraktor.",
+    "Membangun hubungan jangka panjang yang saling menguntungkan dengan integritas dan kepastian pasokan."
   ],
   "values": [
-    { "title": "Integritas", "description": "Kami menjaga kejujuran dan transparansi dalam setiap transaksi dan kemitraan." },
-    { "title": "Keandalan", "description": "Produk yang kami distribusikan memenuhi standar kualitas dan keamanan kelistrikan." },
-    { "title": "Profesionalisme", "description": "Tim kami memahami kebutuhan teknis industri dan memberikan solusi yang tepat sasaran." }
+    { "title": "Technical Advisor", "description": "Pendampingan spesifikasi, sizing, dan verifikasi SLD dari tim engineer berpengalaman." },
+    { "title": "100% Siemens Original", "description": "Jaminan produk original bergaransi resmi langsung dari prinsipal Siemens tanpa risiko barang palsu." },
+    { "title": "Buffer Stock & Logistik Cepat", "description": "Kesiapan stok komponen fast-moving di Tangerang Selatan dengan pengiriman ke seluruh Indonesia." }
   ],
   "principals": [
-    { "name": "Siemens", "logo": "/images/principals/siemens.png" }
+    { "name": "Siemens", "logo": "/images/siemenslogo.svg" }
   ]
 }

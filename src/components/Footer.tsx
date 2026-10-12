@@ -5,6 +5,7 @@ import company from "../../data/company.json";
 const footerNavLinks = [
   { href: "/", label: "Beranda" },
   { href: "/about", label: "Tentang Kami" },
+  { href: "/produk", label: "Produk" },
   { href: "/contact", label: "Kontak" },
 ];
 

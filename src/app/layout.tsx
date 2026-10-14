@@ -74,6 +74,9 @@ export const metadata: Metadata = {
     description: company.description,
     images: ["/images/logo.png"],
   },
+  verification: {
+    google: "ddm7O-DuVrx1E1oJ-s9MkhNbvkOC3vTSOPmxdBo6Tnk",
+  },
 };
 
 const jsonLdOrganization = {

@@ -2,10 +2,16 @@ import Link from "next/link";
 import Image from "next/image";
 import company from "../../data/company.json";
 
-const footerNavLinks = [
+interface FooterNavLink {
+  href: string;
+  label: string;
+  external?: boolean;
+}
+
+const footerNavLinks: FooterNavLink[] = [
   { href: "/", label: "Beranda" },
   { href: "/about", label: "Tentang Kami" },
-  { href: "/produk", label: "Produk" },
+  { href: "https://shop.hokiindo.co.id", label: "Produk", external: true },
   { href: "/contact", label: "Kontak" },
 ];
 
@@ -117,12 +123,23 @@ export default function Footer() {
             <ul className="space-y-2.5">
               {footerNavLinks.map((link) => (
                 <li key={link.href}>
-                  <Link 
-                    href={link.href} 
-                    className="text-xs text-gray-600 hover:text-[#FF0800] transition-colors"
-                  >
-                    {link.label}
-                  </Link>
+                  {link.external ? (
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs text-gray-600 hover:text-[#FF0800] transition-colors"
+                    >
+                      {link.label}
+                    </a>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      className="text-xs text-gray-600 hover:text-[#FF0800] transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  )}
                 </li>
               ))}
             </ul>
